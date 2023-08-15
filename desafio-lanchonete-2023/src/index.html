@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caixa da Lanchonete</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="caixa-da-lanchonete.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lanchonete</h1>
+        <form id="lanchonete-form">
+            <label for="itens">Itens (código, quantidade):</label>
+            <input type="text" id="itens" placeholder="Ex: cafe,1; sanduiche,2; queijo,1">
+            <br>
+            <label for="metodo-pagamento">Método de Pagamento:</label>
+            <select id="metodo-pagamento">
+                <option value="dinheiro">Dinheiro</option>
+                <option value="debito">Débito</option>
+                <option value="credito">Crédito</option>
+            </select>
+            <br>
+            <button class="rounded-button" type="button" onclick="calcularValor()">Calcular Valor</button>
+        </form>
+        <button class="rounded-button" type="button" onclick="exibirCardapio()">Cardápio</button>
+        <div id="cardapio" style="display: none;"></div>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
+

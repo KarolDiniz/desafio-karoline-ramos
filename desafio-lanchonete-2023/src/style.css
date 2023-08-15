@@ -1,0 +1,50 @@
+
+h1{
+    color: #073e78;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label{
+    color: #7999bb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px
+}
+
+body, html {
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #96c6cd;
+    
+}
+
+.container {
+    border: 8px solid #cce5e8;
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #518dceef;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 8px;
+}
+
+.rounded-button:hover {
+    background-color: #0056b3;
+    margin: 8px;
+}
+
+div{
+    color: #073e78;
+}

@@ -1,0 +1,26 @@
+       Entrada:              |              Saída:
+----------------------------------------------------
+cafe,1                                     R$ 2,85 : Dinheiro
+cafe,1                                     R$ 3,00 : Débito
+cafe,1                                     R$ 3,09 : Crédito
+
+chantily,1                                 Chantily só pode ser pedido junto com o café!
+cafe,1;chantily,1                          R$ 4,27 : Dinheiro
+cafe,1;chantily,5                          R$ 9,97 : Dinheiro
+cafe,1;chantily,20                         R$ 31,35: Dinheiro
+
+suco,1                                     R$ 5,89 : Dinheiro
+
+sanduiche,1                                R$ 6,17 : Dinheiro
+suco,1;sanduiche,1                         R$ 12,06: Dinheiro
+sanduiche,1;queijo,1                       R$ 8,07 : Dinheiro
+queijo,1                                   Queijo só pode ser pedido junto com o sanduíche!
+
+salgado,1                                  R$ 6,89 : Dinheiro
+
+combo1,1                                   R$ 9,03 : Dinheiro
+combo2,1                                   R$ 7,13 : Dinheiro
+
+peperoni                                   Item inválido!
+cafe,0                                     Quantidade inválida!
+[vazio]                                    Por favor, preencha todos os campos.

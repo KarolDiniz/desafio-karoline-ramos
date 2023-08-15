@@ -1,0 +1,5 @@
+Caro corretor,
+
+Por motivos de problemas nas configurações do Jest, não consegui realizar os testes unitários. 
+
+Contudo, testei manualmente (tem um documento com o registro das entradas e saídas “inputs-outputs”). Onde, tudo está funcionando conforme foi pedido.
